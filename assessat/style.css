@@ -1,0 +1,113 @@
+.hero-section {
+  background-image: url(./images/background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.hero-text{
+ margin-top: 20% !important;
+}
+.span-heading1 {
+  color: #0f51cc;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.span-heading2 {
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.span-heading3 {
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.hero-section .logo {
+  float: left;
+ margin-left: 10%;
+}
+.hero-q {
+  color: black;
+  font-size: 1.5rem;
+  /* font-weight: 400; */
+  text-align: center !important;
+}
+.bobt{
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+.hero-section .btn-container {
+  text-align: center;
+  /* z-index: 9999; */
+  position: absolute;
+  top: 87%;
+  left:15%;
+}
+.btn{
+  background-color: #296ce8;
+  color: white;
+}
+/* ==================================== section 2 =================================  */
+.left-column h2 {
+  /* padding-right: 20px; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3.5rem !important;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.left-column h5{
+ font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 7% !important;
+}
+.left-column h4{
+  font-weight: 500;
+   font-size: 1.3rem;
+   margin-top: 25% !important;
+ }
+.left-column .btn{
+  padding: 15px 100px;
+  text-align: center;
+  background-color: #337ab7;
+  font-size: 1.2rem;
+  margin-top: 8%;
+  border-radius: 20px;
+}
+.right-column{
+background-color: #e9dcd3;
+}
+/* ==================== section 3 =================================== */
+.responsive-section {
+  background-color: white;
+  color: black;
+  padding: 50px;
+}
+.image-box h3{
+  color: black;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.responsive-section h1 {
+  text-align: left;
+  padding-left: 8%;
+  margin-bottom: 30px;
+}
+.image-box p{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.box-p{
+  text-align: left !important;
+}
+.image-box {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  /* border: 1px solid #ddd; */
+}
