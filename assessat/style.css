@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/background-img.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ z-index: 1;
 .card-btn1 {
   text-align: center;
   position: absolute;
-  top: 478%;
+  top: 475%;
   left: 73%;
 }
 .card-para{
@@ -272,7 +272,45 @@ font-size: 16px;
 font-weight: 400;
 }
 /* ==================== section 6 =============================== */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h1{
+  color: black;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
 
+.para-back{
+  background-color: white;
+  color: black ;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.table-container{
+  margin-top: 5% !important;
+}
+.include-para{
+  color: black;
+  font-size: 15px;
+ font-weight: 600;
+}
+.fa-check{
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 50%;
+}
+tr th{
+  font-size: 1.5rem;
+  color: #080808 !important;
+}
 /* ============================ section 7 ============================ */
 .section1 {
   background-color: white;
