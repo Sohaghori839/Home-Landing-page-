@@ -911,6 +911,49 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+@media only screen and (max-width: 1400px) and (min-width: 1200px){
+  .card-text1{
+    margin-bottom: 25% ;
+  }
+   .card-text2{
+    margin-bottom: 11%;
+  }
+  .compaign-para{
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+.card-text1{
+  margin-bottom: 45%;
+}
+.compaign-para{
+  font-size: 11px !important;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 900px){
+  .card-text1{
+    margin-bottom: 45%;
+  }
+  .compaign-para{
+    font-size: 11px !important;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px){
+  .card-text1{
+    margin-bottom: 100% !important;
+  }
+  .campaign-headig{
+    font-size:2rem !important;
+  }
+  .card-btn .btn {
+    padding: 5px 10px;
+    text-align: right;
+  
+    font-size: 1rem;
+    margin-top: 03%;
+    border-radius: 15px;
+  }
+}
 
 /* ==================== section 6 =============================== */
 .logo-container {
