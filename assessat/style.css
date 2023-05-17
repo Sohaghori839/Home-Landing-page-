@@ -1200,3 +1200,22 @@ color: #060606;
  border-right: solid 3px black;
  border-bottom: solid 5px black;
 }
+input[type='radio'] {
+    width: 25px;
+    height: 25px;
+}
+
+#r1 {
+  accent-color: rgb(7, 7, 7);
+}
+.filed-border{
+  border-color: #060606 !important;
+}
+i .fa-cc-visa{
+  width: 100% !important;
+}
+.label-para{
+  color: #0a0a0a;
+  font-size: 1rem;
+  font-weight: 400;
+}
