@@ -1200,6 +1200,13 @@ color: #060606;
  border-right: solid 3px black;
  border-bottom: solid 5px black;
 }
+.payment-section2{
+  border-top: solid 5px black;
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  border-bottom: solid 5px black;
+
+ }
 input[type='radio'] {
     width: 25px;
     height: 25px;
