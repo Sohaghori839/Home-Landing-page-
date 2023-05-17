@@ -1226,3 +1226,13 @@ i .fa-cc-visa{
   font-size: 1rem;
   font-weight: 400;
 }
+.filed-input input{
+  background-color: #d1ddde;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.form-btn .btn{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
