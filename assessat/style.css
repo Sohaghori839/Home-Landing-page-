@@ -1149,3 +1149,54 @@ tr th {
   font-weight: 700;
   margin-bottom: 20% !important;
 }
+/* ============================= paymet =====================  */
+.order{
+  color: #080808;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 5% !important;
+}
+.billed-order{
+  color: #080808;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 5% !important;
+}
+.para{
+ margin-left: 14%;
+ font-weight: 500;
+ font-size: 1rem;
+}
+.total p{
+  margin-left: 13%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.payment_line {
+  height: 3px !important;
+width: 60%;
+margin-left: 15%;
+color: #060606;
+}
+.payment-heading{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 14%;
+}
+.payment-condition{
+  color: #060606;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 13%;
+}
+.payment-condition1 a{
+  color: #060606;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.payment-section1{
+ border-top: solid 5px black;
+ border-left: solid 3px black;
+ border-right: solid 3px black;
+ border-bottom: solid 5px black;
+}
