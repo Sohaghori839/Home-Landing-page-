@@ -1138,7 +1138,8 @@ body {
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
   .card-text1 {
-    margin-bottom: 100% !important;
+    margin-bottom: 1% !important;
+
   }
 
   .campaign-headig {
@@ -1150,10 +1151,42 @@ body {
     text-align: right;
 
     font-size: 1rem;
-    margin-top: 03%;
+    margin-top: -5%;
     border-radius: 15px;
   }
+  .compaign-para{
+    font-size: 0.9rem !important;
+  }
 }
+@media only screen and (max-width: 767px) and (min-width: 521px) {
+  .card-text1 {
+    margin-bottom: 5% !important;
+ }
+ .campaign-headig{
+  font-size: 1.4rem !important;
+ }
+ .section h2{
+  font-size: 1.3rem;
+ }
+}
+@media only screen and (max-width: 521px) and (min-width: 513px) {
+
+ .campaign-headig{
+  font-size: 1.37rem !important;
+ }
+ .section h2{
+  font-size: 1.2rem;
+ }
+}
+@media only screen and (max-width: 513px) and (min-width: 300px) {
+
+  .campaign-headig{
+   font-size: 1.2rem !important;
+  }
+  .section h2{
+   font-size: 1.2rem;
+  }
+ }
 
 /* ==================== section 6 =============================== */
 .logo-container {
@@ -1201,16 +1234,27 @@ tr th {
   color: #080808 !important;
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .do-heading {
+    font-size: 1.9rem !important;
+  }
+
+  .logo-container img {
+    width: 30%;
+  }
+}
+
+
 /* ============================ section 7 ============================ */
 .section1 {
   background-color: white;
   color: black;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
 }
 
 .section1 h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -1231,9 +1275,32 @@ tr th {
 
 }
 
+.icon-background {
+  background-color: black;
+}
+
+
 .icon-list li {
   margin: 10 10px;
 }
+
+@media only screen and (max-width: 992px) and (min-width: 700px) {
+  #our-heading {
+    font-size: 1.3rem !important;
+
+  }
+
+  #here-heading {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .icon-background img {
+    width: 80% !important;
+  }
+}
+
 
 /* =================================== section 8 =================================== */
 .media-sec {
@@ -1266,6 +1333,25 @@ tr th {
 
 .media-topp-para {
   margin-top: -2%;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+  .media-sec img {
+    width: 70% !important;
+  }
+
+  .col-md-5 {
+    width: 100%;
+  }
+
+  .col-md-7 {
+    width: 100%;
+  }
+
+  .media-sec-image {
+    margin: -15px;
+  }
 }
 
 /* ========================================== section 9 ======================================= */
@@ -1481,33 +1567,38 @@ i .fa-cc-visa {
     font-size: 13px;
     font-weight: 500;
   }
-  .form-btn .btn{
+
+  .form-btn .btn {
     font-size: 1rem;
   }
 }
+
 @media only screen and (max-width: 885px) and (min-width: 768px) {
-  .full-width{
+  .full-width {
     width: 100%;
   }
+
   .payment-condition {
     color: #060606;
     font-size: 1rem;
     font-weight: 400;
     margin-left: 13%;
   }
-  
+
   .payment-condition2 {
     color: #060606;
     font-size: 1rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition3 {
     color: #060606;
     font-size: 1rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition1 a {
     color: #060606;
     font-size: 1rem;
@@ -1518,35 +1609,40 @@ i .fa-cc-visa {
     font-size: 13px;
     font-weight: 500;
   }
-  .responsive-btn .btn{
-    
-    margin-left:-100%;
+
+  .responsive-btn .btn {
+
+    margin-left: -100%;
     margin-top: 25%;
   }
 }
+
 @media only screen and (max-width: 768px) and (min-width: 507px) {
-  .full-width{
+  .full-width {
     width: 100%;
   }
+
   .payment-condition {
     color: #060606;
     font-size: 0.8rem;
     font-weight: 400;
     margin-left: 13%;
   }
-  
+
   .payment-condition2 {
     color: #060606;
     font-size: 0.8rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition3 {
     color: #060606;
     font-size: 0.8rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition1 a {
     color: #060606;
     font-size: 0.8rem;
@@ -1557,35 +1653,40 @@ i .fa-cc-visa {
     font-size: 13px;
     font-weight: 500;
   }
-  .responsive-btn .btn{
+
+  .responsive-btn .btn {
     font-size: 1.2rem;
-    margin-left:-100%;
+    margin-left: -100%;
     margin-top: 35%;
   }
 }
+
 @media only screen and (max-width: 507px) and (min-width: 449px) {
-  .full-width{
+  .full-width {
     width: 100%;
   }
+
   .payment-condition {
     color: #060606;
     font-size: 0.7rem;
     font-weight: 400;
     margin-left: 13%;
   }
-  
+
   .payment-condition2 {
     color: #060606;
     font-size: 0.7rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition3 {
     color: #060606;
     font-size: 0.6rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition1 a {
     color: #060606;
     font-size: 0.8rem;
@@ -1596,35 +1697,40 @@ i .fa-cc-visa {
     font-size: 13px;
     font-weight: 500;
   }
-  .responsive-btn .btn{
+
+  .responsive-btn .btn {
     font-size: 1.2rem;
-    margin-left:-100%;
+    margin-left: -100%;
     margin-top: 40%;
   }
 }
+
 @media only screen and (max-width: 449px) and (min-width: 400px) {
-  .full-width{
+  .full-width {
     width: 100%;
   }
+
   .payment-condition {
     color: #060606;
     font-size: 0.7rem;
     font-weight: 400;
     margin-left: 13%;
   }
-  
+
   .payment-condition2 {
     color: #060606;
     font-size: 0.7rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition3 {
     color: #060606;
     font-size: 0.6rem;
     font-weight: 400;
     margin-left: 13%;
   }
+
   .payment-condition1 a {
     color: #060606;
     font-size: 0.8rem;
@@ -1635,9 +1741,10 @@ i .fa-cc-visa {
     font-size: 13px;
     font-weight: 500;
   }
-  .responsive-btn .btn{
+
+  .responsive-btn .btn {
     font-size: 1.2rem;
-    margin-left:-100%;
+    margin-left: -100%;
     margin-top: 40%;
   }
 }
